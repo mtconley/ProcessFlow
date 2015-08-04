@@ -11,7 +11,7 @@ config = {
     'url': 'https://github.com/mtconley/ProcessFlow',
     'download_url': 'https://github.com/mtconley/ProcessFlow.git.',
     'author_email': '',
-    'version': 0.0.1,
+    'version': '0.0.1',
     'install_requires': 
         [
             'pygraphviz'
