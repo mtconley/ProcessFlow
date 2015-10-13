@@ -36,7 +36,7 @@ class End(Node):
         
 class ProcessFlow(object):
     import pygraphviz as _pgv
-    from StringIO import _StringIO
+    from StringIO import StringIO as _StringIO
     
     def __init__(self, label=None):
         self._G = self._pgv.AGraph(label=label, id=label, directed=True, splines='ortho')
